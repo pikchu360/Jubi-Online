@@ -8,6 +8,7 @@ import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ActivitiesComponent } from './pages/activities/activities.component';
 import { UsersComponent } from './pages/users/users.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'/inicio', pathMatch:'full'},
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'calendar', component:CalendarComponent},
   {path: 'activities', component:ActivitiesComponent},
   {path: 'users', component:UsersComponent},
-  {path: 'profile', component:ProfileComponent}
+  {path: 'profile', component:ProfileComponent},
+  {path: 'home', component:HomeComponent}
 ];
 
 @NgModule({

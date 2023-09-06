@@ -1,49 +1,45 @@
+<app-nav></app-nav>
 
-<h1 class="col1">Mi perfil</h1>
-<div class="body">
-    
-    <div class="col1">
-        <img class="logo" src="../../../assets/img/grandfather.png" alt="img LoginIcon">
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col1"><h5>Apellido/s: </h5></div>
-            <div class="col2"><p>Perez</p></div>
+<mat-grid-list cols="2" rowHeight="480">
+    <mat-grid-tile>
+        <div class="divImg">
+            <h1 class="col1">Mi perfil</h1>
+            <img class="logo" src="../../../assets/img/grandfather.png" alt="img LoginIcon" width="20%">
         </div>
+    </mat-grid-tile>
+    <mat-grid-tile cols="1" rowHeight="100px">
+        <mat-list role="list">
+            <mat-list-item role="listitem">
+                Apellido/s: Perez
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>Nombres: </h5></div>
-            <div class="col2"><p>Luciano Pablo</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                Nombres: Luciano Pablo
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>E-mail: </h5></div>
-            <div class="col2"><p>perluz78@yahoo.com.ar</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                E-mail: perluz78@yahoo.com.ar
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>Ciudad: </h5></div>
-            <div class="col2"><p>Salta</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                Ciudad: Salta
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>Código Postal: </h5></div>
-            <div class="col2"><p>4400</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                Código Postal: 4400
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>Dirección: </h5></div>
-            <div class="col2"><p>Av. Siempre Viva 756</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                Dirección: Av. Siempre Viva 756
+            </mat-list-item>
 
-        <div class="row">
-            <div class="col1"><h5>Fecha de Nacimiento: </h5></div>
-            <div class="col2"><p>01/04/1958</p></div>
-        </div>
+            <mat-list-item role="listitem">
+                Fecha de Nacimiento: 01/04/1958
+            </mat-list-item>
 
-        <div class="row">
-            <button type="submit" routerLink="/inicio" class="btn btn-success btn-lg">Modificar</button>
-        </div>
-    </div>
-
-</div>
+            <mat-list-item role="listitem">
+                <button type="submit" routerLink="/inicio" class="btn btn-success btn-lg">Modificar</button>
+            </mat-list-item>
+        </mat-list>
+    </mat-grid-tile>
+</mat-grid-list>

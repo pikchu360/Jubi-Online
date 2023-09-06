@@ -1,0 +1,9 @@
+mat-grid-tile {
+    background: white;
+  }
+  
+.icon {
+    align-content: center;
+    height: 130px;
+    width: 130px;
+}
