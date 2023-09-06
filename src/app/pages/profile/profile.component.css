@@ -1,0 +1,19 @@
+.body {
+    display: flex;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.col1 {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col2 {
+    text-align: justify;
+    width: 100%;
+    margin-left: 50px;
+}
