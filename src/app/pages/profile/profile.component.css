@@ -14,3 +14,9 @@
 .logo {
     margin-left: 20%;
 }
+
+.buttonSize {
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+}

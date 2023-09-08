@@ -9,6 +9,7 @@ import { ActivitiesComponent } from './pages/activities/activities.component';
 import { UsersComponent } from './pages/users/users.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { HomeComponent } from './pages/home/home.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'/inicio', pathMatch:'full'},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'activities', component:ActivitiesComponent},
   {path: 'users', component:UsersComponent},
   {path: 'profile', component:ProfileComponent},
-  {path: 'home', component:HomeComponent}
+  {path: 'home', component:HomeComponent},
+  {path: 'register', component:RegisterComponent}
 ];
 
 @NgModule({

@@ -17,3 +17,16 @@ form {
     width: 100%;
     text-align: center;
 }
+
+.rowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.button-row {
+    margin-top: 5px;
+    display: table-cell;
+    width: auto;
+}

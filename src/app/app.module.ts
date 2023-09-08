@@ -19,6 +19,7 @@ import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ActivitiesComponent } from './pages/activities/activities.component';
 import { UsersComponent } from './pages/users/users.component';
 import { HomeComponent } from './pages/home/home.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { HomeComponent } from './pages/home/home.component';
     CalendarComponent,
     ActivitiesComponent,
     UsersComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
